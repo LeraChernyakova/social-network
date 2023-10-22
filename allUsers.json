@@ -1,0 +1,65 @@
+[
+  {
+    "_id": 1,
+    "img": "public/img/user1.jpg",
+    "FIO": {"F": "Чернякова", "I": "Валерия", "O": "Алексеевна"},
+    "birth": "27.08.2003",
+    "mail": "2215391@mail.ru",
+    "role": "Пользователь",
+    "status": "Не подтвержден"
+  },
+  {
+    "_id": 2,
+    "img": "public/img/user2.jpg",
+    "FIO": {"F": "Беззубов", "I": "Даниил", "O": "Викторович"},
+    "birth": "11.11.2003",
+    "mail": "bezzubov@yandex.ru",
+    "role": "Администратор",
+    "status": "Активен"
+  },
+  {
+    "_id": 3,
+    "img": "public/img/user3.jpg",
+    "FIO": {"F": "Ярусова", "I": "Татьяна", "O": "Вячеславовна"},
+    "birth": "10.04.2003",
+    "mail": "TV@gmail.com",
+    "role": "Пользователь",
+    "status": "Заблокирован"
+  },
+  {
+    "_id": 4,
+    "img": "public/img/user4.jpg",
+    "FIO": {"F": "Иванова", "I": "Анна", "O": "Сергеевна"},
+    "birth": "05.06.1990",
+    "mail": "anna.ivanova@gmail.com",
+    "role": "Пользователь",
+    "status": "Активен"
+  },
+  {
+    "_id": 5,
+    "img": "public/img/user5.jpg",
+    "FIO": {"F": "Петров", "I": "Петр", "O": "Александрович"},
+    "birth": "18.09.1975",
+    "mail": "petr.petrov@mail.ru",
+    "role": "Администратор",
+    "status": "Заблокирован"
+  },
+  {
+    "_id": 6,
+    "img": "public/img/user6.jpg",
+    "FIO": {"F": "Сидорова", "I": "Ольга", "O": "Ивановна"},
+    "birth": "25.03.1987",
+    "mail": "olga.sidorova@outlook.com",
+    "role": "Пользователь",
+    "status": "Не подтвержден"
+  },
+  {
+    "_id": 7,
+    "img": "public/img/user7.jpg",
+    "FIO": {"F": "Смирнов", "I": "Михаил", "O": "Андреевич"},
+    "birth": "30.07.1995",
+    "mail": "mikhail.smirnov@yahoo.com",
+    "role": "Администратор",
+    "status": "Не подтвержден"
+  }
+]

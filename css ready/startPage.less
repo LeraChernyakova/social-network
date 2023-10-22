@@ -1,0 +1,48 @@
+@font-family: 'Verdana', system-ui;
+@background-image: url("/public/img/social.png");
+@blue-color: #003B69;
+@white-color: white;
+
+* {
+  font-family: @font-family;
+}
+
+body {
+  background-image: @background-image;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  vertical-align: middle;
+}
+
+h1 {
+  font-size: 48px;
+  color: transparent;
+  -webkit-text-stroke: 3px white;
+}
+
+p {
+  font-weight: bold;
+  font-size: 30px;
+  color: @white-color;
+}
+
+a {
+  padding: 1% 8%;
+  background-color: @blue-color;
+  color: @white-color;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  font-size: 20px;
+}

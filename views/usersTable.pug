@@ -1,0 +1,50 @@
+table
+    thead
+        tr
+            th.th-1-7
+                | ID
+            th.th-1-7
+                | Фото
+            th.th-1-7
+                | ФИО
+            th.th-1-7
+                | Дата рождения
+            th.th-1-7
+                | Почта
+            th.th-1-7
+                | Роль
+            th.th-1-7
+                | Статус
+            th.th-8-10
+                | Друзья
+            th.th-8-10
+                | Сообщения
+            th.th-8-10
+                | Новости
+    tbody
+        each user in users
+            tr.tr-all-users
+                td.column-1-7.user_id #{user._id}
+                td.column-1-7
+                    img(src=user.img height=80 width=80)
+                td.column-1-7 #{user.FIO.F} #{user.FIO.I} #{user.FIO.O}
+                td.column-1-7 #{user.birth}
+                td.column-1-7 #{user.mail}
+                td.column-1-7
+                    select
+                        option(value='all') Пользователь
+                        option(value='have') Администратор
+                td.column-1-7
+                    select
+                        option(value='all') Активен
+                        option(value='have') Не подтвержден
+                        option(value='have') Заблокирован
+                td.column-8-10
+                    a(href="/admin/friends/" + user._id, style = "color: #1A72B8")
+                        i.fa.fa-users.fa-2x(aria-hidden='true')
+                td.column-8-10
+                    button.open-chats(style = "color: #1A72B8")
+                        i.fa.fa-comment.fa-2x(aria-hidden='true')
+                td.column-8-10
+                    a(href="/admin/news/" + user._id, style = "color: #1A72B8")
+                        i.fa.fa-newspaper-o.fa-2x(aria-hidden='true')

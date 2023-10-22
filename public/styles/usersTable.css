@@ -1,0 +1,43 @@
+* {
+    font-family: 'Verdana', system-ui;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background: #E2F2FF;
+    border: 1px solid black;
+    font-size: 12px;
+}
+
+.th-1-7 {
+    text-align: left;
+    padding: 5px;
+}
+
+.th-8-10 {
+    text-align: center;
+    padding: 5px;
+}
+
+tbody {
+    background-color: white;
+    font-size: 12px;
+}
+
+.column-1-7 {
+    text-align: left;
+    padding: 5px;
+}
+
+.column-8-10 {
+    text-align: center;
+    padding: 5px;
+}
+
+.tr-all-users {
+    border: 1px solid black;
+}

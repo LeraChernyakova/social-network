@@ -1,0 +1,8 @@
+dialog#usersChats
+    h1 Чаты пользователя
+    each user in userChats
+        div
+            p #{user._id}
+            p #{user.img}
+            p #{user.FIO.F} #{user.FIO.I} #{user.FIO.O}
+        br

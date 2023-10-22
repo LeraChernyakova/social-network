@@ -1,0 +1,22 @@
+doctype html
+html(lang="ru")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="/public/styles/usersNews.css")
+        link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css")
+        title Новости
+    body
+        div.div-panel
+            p.panel Панель администрирования
+        p.list НОВОСТИ ДРУЗЕЙ ПОЛЬЗОВАТЕЛЯ
+        p.list Фамилия:
+        p.list Имя:
+        p.list Отчество:
+        each news in usersNews
+            div.div-news
+                p.info Автор: #{news.FIO.F} #{news.FIO.I} #{news.FIO.O}
+                p.info #{news.date} в #{news.time}
+                p.text #{news.text}
+            br
